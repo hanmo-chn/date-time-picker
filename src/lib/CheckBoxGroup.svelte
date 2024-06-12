@@ -47,6 +47,7 @@
                 allSelected = true;
             }
         }
+        dispatch('change');
     }
 
     $: {
